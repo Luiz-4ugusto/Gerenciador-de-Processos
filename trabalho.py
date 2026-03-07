@@ -64,7 +64,7 @@ def submit_valor():
 # Aqui os minutos serão transformados em segundos para funcionar no .sleep 
 
         if not titulo or not mensagem:
-            messagebox.showwarning("Erro!", "Faltou inserir o Titulo e a desciração da tarefa que vai ser notificada")
+            messagebox.showwarning("Erro!", "Faltou inserir o Titulo e a descrição da tarefa que vai ser notificada.")
             return
 
         horario_seg = horario * 60
@@ -86,7 +86,7 @@ def submit_valor():
             entry.delete(0, tk.END)
 
     except ValueError:
-        messagebox.showwarning("Erro!", "Faltou inserir quantas vezes e em quando tempo a tarefa vai ser notificada")
+        messagebox.showwarning("Erro!", "Faltou inserir quantas vezes e em quando tempo a tarefa vai ser notificada.")
     except IndexError:
         messagebox.showwarning("Erro!", "Campos não carregados.")
 
@@ -110,7 +110,7 @@ tree = None
 def excluir_linha():
     selected_item = tree.selection()
     if not selected_item:
-        messagebox.showwarning("Erro!", "Linha não foi selecionado, para selecionar o item a ser deletado clique em um dos itens da tabela")
+        messagebox.showwarning("Erro!", "Linha não foi selecionada. Para selecionar o item a ser deletado, clique em um dos itens da tabela.")
 
         return
     for item in selected_item:
@@ -123,7 +123,7 @@ def editar_linha():
     selected_item = tree.selection()
 
     if not selected_item:
-        messagebox.showwarning("Erro!", "Linha não foi selecionado, para selecionar o item a ser editado clique em um dos itens da tabela")
+        messagebox.showwarning("Erro!", "Linha não foi selecionada. Para selecionar o item a ser editado, clique em um dos itens da tabela.")
 
         return
 
