@@ -144,7 +144,7 @@ def main():
 
     janela_principal = tk.Tk()
 
-    janela_principal.title("Configurar Lembrete")
+    janela_principal.title("Gerenciador de Lembretes")
     janela_principal.geometry("650x716")
 
     center(janela_principal)
