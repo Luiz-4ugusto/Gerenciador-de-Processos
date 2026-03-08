@@ -12,7 +12,9 @@ Este sistema foi desenvolvido com o propósito de oferecer aos usuários uma for
 Este projeto tem como objetivo o desenvolvimento de um sistema de gerenciamento de processos e lembretes, permitindo ao usuário organizar e acompanhar tarefas de forma prática e eficiente. O sistema oferece funcionalidades como cadastro, visualização e controle de lembretes, além do envio de notificações automáticas para alertar o usuário no momento programado.
 
 A aplicação foi desenvolvida utilizando a linguagem Python com Tkinter para a interface gráfica, proporcionando uma interação simples e intuitiva. O sistema também utiliza bibliotecas auxiliares para gerenciamento de tempo e notificações, garantindo que os lembretes sejam exibidos corretamente durante a execução do programa. A estrutura do projeto foi organizada de forma modular, facilitando a manutenção, atualização e expansão de novas funcionalidades.
+## Documentação
 
+- [Documentação do projeto](https://drive.google.com/file/d/1wZsGwSC3Ql6lmkhgZZNQ5by36ZcKsKV3/view?usp=sharing)
 ## ⚙️ Tecnologias utilizadas
 - Python
 - Tkinter
@@ -31,9 +33,7 @@ A aplicação foi desenvolvida utilizando a linguagem Python com Tkinter para a 
 
 
 
-## Documentação
 
-- [Documentação do projeto](https://drive.google.com/file/d/1wZsGwSC3Ql6lmkhgZZNQ5by36ZcKsKV3/view?usp=sharing)
 
 ## 📋 Requisitos Funcionais (RNG)
 
