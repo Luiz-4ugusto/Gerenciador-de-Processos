@@ -95,7 +95,7 @@ def submit_valor():
 
 # Declarando o diretorio do tema para a aplicação
 
-diretorio_atual = os.path.dirname(__file__)
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 caminho_tema = os.path.join(
     diretorio_atual,
     "Forest-ttk-theme-master",
@@ -144,7 +144,7 @@ def main():
 
     janela_principal = tk.Tk()
 
-    janela_principal.title("Gerenciador de Lembretes")
+    janela_principal.title("Gerenciador de Eventos")
     janela_principal.geometry("650x716")
 
     center(janela_principal)
@@ -160,7 +160,7 @@ def main():
 
     ttk.Label(
         janela_principal,
-        text="Gerenciador de Lembretes",
+        text="Gerenciador de Eventos",
         font=("Times New Roman", 24)
     ).grid(
         row=0,
