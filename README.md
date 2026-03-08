@@ -56,6 +56,12 @@ RNF04. O sistema não deve perder eventos cadastrados durante a execução.
 
 RNF05. O sistema deve poder ser executado como aplicação Python ou arquivo executável (.exe).
 
+## Tecnologias utilizadas
+- Python
+- Tkinter
+- Plyer
+- PyInstaller
+  
 ## Ferramentas
 
 | Ferramentas | Finalidade |
@@ -75,7 +81,7 @@ pip install plyer
 
 2. Execute o programa:
 
-python main.py
+python Gerenciador_main.py
 
 
 ## Download do projeto
@@ -83,7 +89,9 @@ python main.py
 Baixe a última versão: https://github.com/Luiz-4ugusto/Gerenciador-de-Processos/releases/tag/v1.0 
   
 
+## Licença
 
+Este projeto está sob a licença MIT.
 
 
 
