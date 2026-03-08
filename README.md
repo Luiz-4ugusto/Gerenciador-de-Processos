@@ -46,8 +46,8 @@ pip install plyer
 python main.py
 ```
 
-## 📌 Status do projeto
+## Download
 
-🚧 **Em desenvolvimento**
+Baixe a última versão:
 
-Este projeto ainda está sendo atualizado e novas funcionalidades serão adicionadas futuramente.
+https://github.com/Luiz-Augusto/Gerenciador-de-Processos/releases
