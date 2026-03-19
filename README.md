@@ -14,7 +14,7 @@ Este projeto tem como objetivo o desenvolvimento de um sistema de gerenciamento 
 A aplicação foi desenvolvida utilizando a linguagem Python com Tkinter para a interface gráfica, proporcionando uma interação simples e intuitiva. O sistema também utiliza bibliotecas auxiliares para gerenciamento de tempo e notificações, garantindo que os lembretes sejam exibidos corretamente durante a execução do programa. A estrutura do projeto foi organizada de forma modular, facilitando a manutenção, atualização e expansão de novas funcionalidades.
 ## Documentação
 
-- [Documentação do projeto](https://drive.google.com/file/d/1wZsGwSC3Ql6lmkhgZZNQ5by36ZcKsKV3/view?usp=sharing)
+- [Documentação do projeto](https://drive.google.com/file/d/1evA4b_T8LMK-6LRqm3-9_w_kB-kwamGh/view?usp=sharing)
 ## ⚙️ Tecnologias utilizadas
 - Python
 - Tkinter
